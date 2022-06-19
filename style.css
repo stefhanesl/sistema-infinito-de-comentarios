@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #56379E
+  }
+#aplicacion{
+    display: flex;
+    flex-direction: column;
+   
+}
+h3{
+    margin-left: 270px;
+}
+h1{
+    color: #f5eff4;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 2px 3px 3px #5E58FC;
+}
+.contenedor-titulo{
+    color: #B160F0;
+    text-shadow: 3px 2px 10px #5E58FC;
+    font-size: 25px;
+
+}
+#contenedor-principal {
+width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.contenedor-comentario {
+border: solid 1px #91a8c2;
+border-radius: 5px;
+padding: 10px;
+color: white;
+background-color: #6260F0;
+}
+
+.contenedor-respuestas {
+margin-top: 10px;
+padding-left: 20px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.contenedor-respuestas .contenedor-comentario {
+background-color: #6260F0;
+color: white;
+}
+
+.input {
+max-width: 40vw;
+padding: 5px 20px;
+border: solid 1px #ccc;
+border-radius: 15px;
+justify-content: center;
+}
+
+button {
+border-radius: 5px;
+border: none;
+background-color: #eee;
+padding: 5px 15px;
+cursor: pointer;
+margin-right: 5px;
+}
+
+button:hover {
+background-color: #B858C7;
+color: white;
+}
